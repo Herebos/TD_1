@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=ece7412d1a5bf8849893670886c664e8&amp;type=3#Style" />
+    <ui:VisualElement style="height: 145px; width: 1920px; flex-direction: row; flex-shrink: 1; flex-basis: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color: rgb(86, 154, 164); border-bottom-color: rgb(2, 2, 2); border-bottom-width: 1px; justify-content: space-around; align-items: center;">
+        <ui:Label text="VIE&#10;currentHealth" display-tooltip-when-elided="true" name="Vie" class="text" />
+        <ui:Label text="Wave&#10;currentWave / totaWave" display-tooltip-when-elided="true" name="Wave" style="height: 50px; width: 186px; white-space: nowrap; -unity-text-align: upper-center; right: auto; top: auto; position: relative; flex-direction: row; font-size: 24px; margin-left: 11px; margin-right: 11px; margin-top: 11px; margin-bottom: 11px;" />
+        <ui:Label display-tooltip-when-elided="true" name="Argent" enable-rich-text="false" focusable="false" text="Argent" class="text" style="justify-content: flex-start; align-items: center; width: 138px; white-space: normal; flex-wrap: wrap; flex-direction: column; height: 50px;">
+            <ui:Label display-tooltip-when-elided="true" name="currentMoney" text="200" style="justify-content: space-around; align-items: auto; flex-wrap: nowrap; flex-direction: column-reverse; height: 32px; width: 235px; margin-left: 31px; margin-right: 31px; margin-top: 31px; margin-bottom: 31px;" />
+        </ui:Label>
+        <ui:Button text="Start Wave" display-tooltip-when-elided="true" name="StartWave" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
